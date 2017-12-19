@@ -1,3 +1,6 @@
+// notes from monk-time
+
+
 {
     const steps = start => jump => {
         let offsets = [...start];

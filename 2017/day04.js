@@ -1,3 +1,6 @@
+// notes from monk-time
+
+
 const passphrases = document.body.textContent.trim().split('\n');
 const removeRepeats = (w, _, ws) => ws.filter(v => v === w).length === 1;
 const sortLetters = w => [...w].sort().join('');
